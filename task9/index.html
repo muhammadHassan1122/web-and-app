@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Payment form</h2>
+        <form method="post">
+            <h4>Account</h4>
+            <div class="input-group">
+                <div style="display: flex; align-items: center; justify-content: center;     background-color: #fcfcfc;
+                border: 1px solid #00000033;  height: 40px; width: 47%;">
+                    <div name="hogya" class="hogya" tabindex="1"
+                        style="width: 17%; height: 100%; background-color: #f1f1f1; display: flex; align-items: center; justify-content: center;">
+                        <img src="./image/icon.png" alt="" style="width: 15px;">
+                    </div>
+                    <input placeholder="full name" style="border: none; margin-left: 10px;" />
+                </div>
+                <div style="display: flex; align-items: center; justify-content: center;     background-color: #fcfcfc;
+                border: 1px solid #00000033; height: 40px; width: 47%;">
+                    <div name="hogya" class="hogya" tabindex="1"
+                        style="width: 17%; height: 100%; background-color: #f1f1f1; display: flex; align-items: center; justify-content: center;">
+                        <img src="./image/icon.png" alt="" style="width: 15px;">
+                    </div>
+                    <input placeholder="Nick name" style="border: none; margin-left: 10px;" />
+                </div>
+            </div>
+            <div class="input-Group">
+                <div style="display: flex; align-items: center; background-color: #fcfcfc;
+                border: 1px solid #00000033; height: 40px; width: 100%;">
+                    <div name="hogya" class="hogya" tabindex="1"
+                        style="width: 17%; height: 100%; background-color: #f1f1f1; display: flex; align-items: center; justify-content: center;">
+                        <img src="./image/envelope.png" alt="" style="width: 15px;">
+                    </div>
+                    <input type="email" placeholder="Email Address" style="border: none; margin-left: 10px;" />
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <h4>Date of birth</h4>
+                    <input type="text" style="width: 50px; height: 35px;" placeholder="DD" class="dob">
+                    <input type="text" style="width: 50px; height: 35px;" placeholder="MM" class="dob">
+                    <input type="text" style="width: 50px; height: 35px;" placeholder="YYYY" class="dob">
+
+                </div>
+                <div class="input-box">
+                    <h4>Gender</h4>
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <div name="box" class="box" tabindex="1"
+                            style="  border: 1px solid black; width: 50%; height: 35px; display: flex; align-items: center; justify-content: center;">
+
+                            <label for="Gender">Male</label>
+                        </div>
+                        <div name="box" class="box" tabindex="1"
+                            style="border: 1px solid black; width: 50%; height: 35px;display: flex; align-items:center ; justify-content: center;">
+
+                            <label for="Gender">Female</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4>Payment details</h4>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+                <div name="box" class="box" tabindex="1"
+                    style="width: 50%;height: 38px; border: 1px solid black; display: flex; align-items: center; justify-content: center;">
+                    <img src="./image/visa.png" width="15px">
+
+                    <label for="payment details">Credit Card</label>
+                </div>
+                <div name="box" class="box" tabindex="1"
+                    style="width: 50%;height: 38px; border: 1px solid black; display: flex; align-items: center; justify-content: center;">
+                    <img src="./image/paypal.png" width="15px">
+
+                    <label for="payment details">PayPal</label>
+                </div>
+            </div>
+
+            <div class="input-Group">
+                <div style="display: flex; align-items: center; background-color: #fcfcfc;
+            border: 1px solid #00000033; height: 40px; width: 100%;">
+                    <div name="hogya" class="hogya" tabindex="1"
+                        style="width: 17%; height: 100%; background-color: #f1f1f1; display: flex; align-items: center; justify-content: center;">
+                    
+                    <img src="./image/credit.png" alt="" style="width: 15px;">
+                    </div>
+                    <input type="tel" placeholder="Card Number" style="border: none; margin-left: 10px;" />
+                </div>
+            </div>
+            <div class="input-group">
+                <div style="display: flex; align-items: center; background-color: #fcfcfc;
+            border: 1px solid #00000033; height: 40px; width: 50%;">
+                    <div name="hogya" class="hogya" tabindex="1"
+                        style="width: 17%; height: 100%; background-color: #f1f1f1; display: flex; align-items: center; justify-content: center;">
+
+                        <img src="./image/icon.png" alt="" style="width: 15px;">
+                    </div>
+                    <input type="tel" placeholder="Card CVC" style="border: none; margin-left: 10px;" />
+                </div>
+
+                <div class="select">
+                    <select>
+                        <option>1 jun</option>
+                        <option>2 jun</option>
+                        <option>3 jun</option>
+                    </select>
+                    <select>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box"
+                    style="display: flex; align-items: center; justify-content: center; border: 12px; width: 100%;">
+                    <button type="submit"
+                        style="width: 100%; height: 40px; background-color: #7ed321; color: white; border-radius: 5px; cursor: pointer; border: 12px;">Pay
+                        Now</button>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>

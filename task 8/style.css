@@ -1,0 +1,15 @@
+.abc{
+    text-align: center;
+
+}   
+.abc{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+table,th,td{
+    border: 10px groove black;
+}

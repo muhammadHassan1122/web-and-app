@@ -1,0 +1,7 @@
+*{
+    background-color: radial-gradient(#fff,#ffd6d6);
+}
+label{
+    display: inline-block;
+    width: 100px;
+}

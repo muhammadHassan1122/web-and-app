@@ -1,0 +1,11 @@
+ul{
+   color: white;
+   background-color: #ff723b;
+}
+li{
+    background: #ff523b;
+    color: rgb(255, 205, 2);
+}
+.back{
+    background: rgb(2, 2, 2);
+}

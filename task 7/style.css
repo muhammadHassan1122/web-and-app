@@ -1,0 +1,56 @@
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+h1{
+    padding-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black;
+    margin: 0;
+}
+h3{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    border-width: 2px;
+    border-color: black; 
+    border-style: groove;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    
+}
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.olx{
+    text-align: center;
+    width: 70%;
+}
